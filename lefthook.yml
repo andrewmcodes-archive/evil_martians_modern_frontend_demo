@@ -36,6 +36,9 @@
 pre-commit:
   parallel: true
   commands:
+    rb:
+      glob: "*.rb"
+      run: "bin/standardrb --format progress --fix {staged_files} && git add {staged_files}"
     js:
       glob: "*.js"
       run: "yarn prettier --write {staged_files} && yarn eslint {staged_files} && git add {staged_files}"
