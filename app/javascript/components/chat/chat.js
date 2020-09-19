@@ -1,3 +1,3 @@
-import "components/messages/messages";
-import "components/message-form/message-form";
+import "../messages/messages";
+import "../message-form/message-form";
 import "./chat.pcss";

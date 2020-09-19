@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Follow Evil Front Parts 1-3 tutorial
 
-Things you may want to cover:
+## Run
 
-* Ruby version
+```sh
+overmind start -f Procfile
+```
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- [Blog Post - Part 1](https://evilmartians.com/chronicles/evil-front-part-1)
+- [Blog Post - Part 2](https://evilmartians.com/chronicles/evil-front-part-2)
+- [Blog Post - Part 3](https://evilmartians.com/chronicles/evil-front-part-3)
+- [Example Repo](https://github.com/evilmartians/evil_chat)
